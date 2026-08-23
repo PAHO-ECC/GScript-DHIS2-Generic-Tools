@@ -9,7 +9,6 @@ A small shared library of Google Apps Script functions for talking to a [DHIS2](
 | `DHIS2Lib.js` | Core HTTP helpers: `dhis2Get`, `dhis2Post`, `dhis2Put`, `dhis2Patch`, `dhis2Delete`. Each wraps `UrlFetchApp.fetch` with the DHIS2 `ApiToken` auth header, JSON (de)serialization, and consistent error throwing on non-2xx responses. |
 | `updateDHIS2Chart.js` | `updateDHIS2Chart(baseUrl, chartId, apitokenGET, apitokenPUT, newPeriod, newOuItems, additionalDims)` — fetches an existing chart/table (`/api/visualizations/{id}`), rebuilds its `columns`/`rows`/`filters` dimension arrays while preserving the existing layout, optionally overrides the period and/or org units, and PUTs the updated definition back. Falls back to the chart's own `USER_ORGUNIT[_CHILDREN/_GRANDCHILDREN]` setting when no org unit override is given. |
 | `updateDHIS2Map.js` | Same idea as above but for `/api/maps/{id}` — operates on the map's first `mapViews[0]` entry. |
-| `appsscript.json` | Apps Script project manifest (timezone `America/Barbados`, V8 runtime). |
 
 ## Why this exists
 
