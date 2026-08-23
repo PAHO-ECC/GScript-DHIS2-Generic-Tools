@@ -59,7 +59,7 @@ None of the files in this repo contain a real DHIS2 token — the JSDoc examples
 
 ## License
 
-Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) — see [`LICENSE`](./LICENSE). You're free to use, adapt, and redistribute this code, including commercially, as long as you credit the original author.
+Licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) — see [`LICENSE`](./LICENSE). Strong copyleft: if you distribute this code or a modified/larger work built on it, the complete corresponding source must be made available under the same license, and copyright/license notices must be preserved. Comes with an express patent grant from contributors, and with **no warranty**.
 
 ## Status
 
